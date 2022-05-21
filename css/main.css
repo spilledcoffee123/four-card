@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+/* Title Text*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-text {
+  margin-top: 30px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#off-grey-title {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#bold-font-title {
+  font-size: 23px;
+}
+
+#bold-font-title:hover {
+  animation-name: floating;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: auto;
+  margin-top: -2px;
+}
+
+#small-grey-title {
+  color: hsl(229, 6%, 66%);
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+/* Team Builder Card */
+
+.team-builder-card {
+  margin: 0 auto;
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 380px;
+  height: 270px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-top: 4px solid hsl(0, 78%, 62%);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.team-builder-card:hover {
+  background-color: hsl(0, 78%, 62%);
+  transition: 0.5s;
+}
+
+.team-builder-card:hover #grey-text-1 {
+  color: black;
+}
+
+.team-builder-card:hover #bold-font-header-1 {
+  text-decoration: 2px underline solid black;
+}
+
+#bold-font-header-1 {
+  font-size: 17px;
+  margin-bottom: 4px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+#grey-text-1 {
+  padding-top: 5px;
+  padding-left: 20px;
+  color: hsl(229, 6%, 66%);
+  font-size: 13px;
+}
+
+.team-builder-card-img {
+  padding-top: 60px;
+  padding-left: 275px;
+  width: 75px;
+}
+
+/* Calculator Card*/
+
+.calculator-card {
+  margin: 0 auto;
+  margin-top: -70px;
+  margin-right: 17%;
+  box-sizing: border-box;
+  width: 400px;
+  height: 270px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-top: 4px solid hsl(212, 86%, 64%);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.calculator-card:hover {
+  background-color: hsl(212, 86%, 64%);
+  transition: 0.5s;
+}
+
+.calculator-card:hover #grey-text-2 {
+  color: black;
+}
+
+.calculator-card:hover #bold-font-header-2 {
+  text-decoration: 2px underline solid black;
+}
+
+.calculator-card:hover .calculator-card-img {
+  animation-name: floating;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: auto;
+  margin-top: -2px;
+}
+
+#bold-font-header-2 {
+  font-size: 17px;
+  margin-bottom: 4px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+#grey-text-2 {
+  padding-top: 5px;
+  padding-left: 20px;
+  color: hsl(229, 6%, 66%);
+  font-size: 13px;
+}
+
+.calculator-card-img {
+  padding-top: 60px;
+  padding-left: 275px;
+  width: 75px;
+}
+
+/* Karma Card */
+
+.karma-card {
+  margin: 0 auto;
+  margin-top: -170px;
+  box-sizing: border-box;
+  width: 380px;
+  height: 270px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-top: 4px solid hsl(34, 97%, 64%);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.karma-card:hover {
+  background-color: hsl(34, 97%, 64%);
+  transition: 0.5s;
+}
+
+.karma-card:hover #grey-text-3 {
+  color: black;
+}
+
+.karma-card:hover #bold-font-header-3 {
+  text-decoration: 2px underline solid black;
+}
+
+#bold-font-header-3 {
+  font-size: 17px;
+  margin-bottom: 4px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+#grey-text-3 {
+  padding-top: 5px;
+  padding-left: 20px;
+  color: hsl(229, 6%, 66%);
+  font-size: 13px;
+}
+
+.karma-card-img {
+  padding-top: 60px;
+  padding-left: 275px;
+  width: 75px;
+}
+
+/* Supervisor Card*/
+
+.supervisor-card {
+  margin: 0 auto;
+  margin-top: -370px;
+  margin-left: 17%;
+  box-sizing: border-box;
+  width: 400px;
+  height: 270px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-top: 4px solid hsl(180, 62%, 55%);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.supervisor-card:hover {
+  background-color: hsl(180, 62%, 55%);
+  transition: 0.5s;
+}
+
+.supervisor-card:hover #grey-text-4 {
+  color: black;
+}
+
+.supervisor-card:hover #bold-font-header-4 {
+  text-decoration: 2px underline solid black;
+}
+
+#bold-font-header-4 {
+  font-size: 17px;
+  margin-bottom: 4px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+#grey-text-4 {
+  padding-top: 5px;
+  padding-left: 20px;
+  color: hsl(229, 6%, 66%);
+  font-size: 13px;
+}
+
+.supervisor-card-img {
+  padding-top: 60px;
+  padding-left: 275px;
+  width: 75px;
+}
+
+/* Floating image animations parameters on hover*/
+.team-builder-card:hover .team-builder-card-img,
+.calculator-card:hover .calculator-card-img,
+.karma-card:hover .karma-card-img,
+.supervisor-card:hover .supervisor-card-img {
+  animation-name: floating;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: auto;
+  margin-top: -2px;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+/* Viewport changes */
+
+@media only screen and (max-width: 1900px) {
+  .title-text {
+    margin-top: 10px;
+  }
+
+  .team-builder-card {
+    margin-top: 20px;
+  }
+
+  .calculator-card {
+    margin: 0 auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 380px;
+    height: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top: 4px solid hsl(212, 86%, 64%);
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .karma-card {
+    margin-top: 30px;
+  }
+
+  .supervisor-card {
+    margin: 0 auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 380px;
+    height: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top: 4px solid hsl(180, 62%, 55%);
+    padding: 8px;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .cards {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+
+  .team-builder-card {
+    margin-top: 150px;
+    margin-left: 20px;
+  }
+
+  .calculator-card {
+    margin-top: 150px;
+    margin: 0 auto;
+    margin-top: 150px;
+    box-sizing: border-box;
+    width: 380px;
+    height: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top: 4px solid hsl(212, 86%, 64%);
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .karma-card {
+    margin-top: 150px;
+  }
+
+  .supervisor-card {
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    width: 380px;
+    height: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top: 4px solid hsl(180, 62%, 55%);
+    padding: 8px;
+    border-radius: 5px;
+  }
+}
